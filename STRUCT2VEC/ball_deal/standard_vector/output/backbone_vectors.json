@@ -1,0 +1,506 @@
+[
+  {
+    "start_atom_id": 1,
+    "end_atom_id": 2,
+    "start_atom_name": "O5'",
+    "end_atom_name": "C5'",
+    "vector": [
+      1.0110000000000001,
+      -1.0169999999999995,
+      0.09499999999999997
+    ],
+    "magnitude": 1.4371621342075496,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 1,
+    "end_atom_id": 3,
+    "start_atom_name": "O5'",
+    "end_atom_name": "C4'",
+    "vector": [
+      2.183,
+      -0.8249999999999993,
+      -0.8630000000000001
+    ],
+    "magnitude": 2.4881485084295107,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 1,
+    "end_atom_id": 4,
+    "start_atom_name": "O5'",
+    "end_atom_name": "O4'",
+    "vector": [
+      1.790000000000001,
+      -1.1049999999999969,
+      -2.212
+    ],
+    "magnitude": 3.0525512280713647,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 1,
+    "end_atom_id": 5,
+    "start_atom_name": "O5'",
+    "end_atom_name": "C3'",
+    "vector": [
+      2.7349999999999994,
+      0.5730000000000004,
+      -0.81
+    ],
+    "magnitude": 2.9094078435310506,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 1,
+    "end_atom_id": 6,
+    "start_atom_name": "O5'",
+    "end_atom_name": "O3'",
+    "vector": [
+      4.139000000000001,
+      0.6630000000000003,
+      -1.116
+    ],
+    "magnitude": 4.3377812300760406,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 1,
+    "end_atom_id": 7,
+    "start_atom_name": "O5'",
+    "end_atom_name": "C2'",
+    "vector": [
+      1.8130000000000006,
+      1.184000000000001,
+      -1.792
+    ],
+    "magnitude": 2.810709696855939,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 1,
+    "end_atom_id": 8,
+    "start_atom_name": "O5'",
+    "end_atom_name": "C1'",
+    "vector": [
+      1.5969999999999995,
+      0.13800000000000168,
+      -2.877
+    ],
+    "magnitude": 3.293414945007689,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 1,
+    "end_atom_id": 31,
+    "start_atom_name": "O5'",
+    "end_atom_name": "P",
+    "vector": [
+      4.7829999999999995,
+      2.0740000000000016,
+      -1.5670000000000002
+    ],
+    "magnitude": 5.443716928716996,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 2,
+    "end_atom_id": 3,
+    "start_atom_name": "C5'",
+    "end_atom_name": "C4'",
+    "vector": [
+      1.1719999999999997,
+      0.19200000000000017,
+      -0.9580000000000001
+    ],
+    "magnitude": 1.5258479609712101,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 2,
+    "end_atom_id": 4,
+    "start_atom_name": "C5'",
+    "end_atom_name": "O4'",
+    "vector": [
+      0.7790000000000008,
+      -0.08799999999999741,
+      -2.307
+    ],
+    "magnitude": 2.4365619220532855,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 2,
+    "end_atom_id": 5,
+    "start_atom_name": "C5'",
+    "end_atom_name": "C3'",
+    "vector": [
+      1.7239999999999993,
+      1.5899999999999999,
+      -0.905
+    ],
+    "magnitude": 2.5138219905156363,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 2,
+    "end_atom_id": 6,
+    "start_atom_name": "C5'",
+    "end_atom_name": "O3'",
+    "vector": [
+      3.128000000000001,
+      1.6799999999999997,
+      -1.211
+    ],
+    "magnitude": 3.7514403900368727,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 2,
+    "end_atom_id": 7,
+    "start_atom_name": "C5'",
+    "end_atom_name": "C2'",
+    "vector": [
+      0.8020000000000005,
+      2.2010000000000005,
+      -1.887
+    ],
+    "magnitude": 3.00805152881396,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 2,
+    "end_atom_id": 8,
+    "start_atom_name": "C5'",
+    "end_atom_name": "C1'",
+    "vector": [
+      0.5859999999999994,
+      1.1550000000000011,
+      -2.972
+    ],
+    "magnitude": 3.2419446324698393,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 2,
+    "end_atom_id": 31,
+    "start_atom_name": "C5'",
+    "end_atom_name": "P",
+    "vector": [
+      3.7719999999999994,
+      3.091000000000001,
+      -1.6620000000000001
+    ],
+    "magnitude": 5.152136353009303,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 3,
+    "end_atom_id": 4,
+    "start_atom_name": "C4'",
+    "end_atom_name": "O4'",
+    "vector": [
+      -0.3929999999999989,
+      -0.2799999999999976,
+      -1.349
+    ],
+    "magnitude": 1.4327072275939692,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 3,
+    "end_atom_id": 5,
+    "start_atom_name": "C4'",
+    "end_atom_name": "C3'",
+    "vector": [
+      0.5519999999999996,
+      1.3979999999999997,
+      0.05300000000000005
+    ],
+    "magnitude": 1.5039670874058377,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 3,
+    "end_atom_id": 6,
+    "start_atom_name": "C4'",
+    "end_atom_name": "O3'",
+    "vector": [
+      1.9560000000000013,
+      1.4879999999999995,
+      -0.253
+    ],
+    "magnitude": 2.470645462222373,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 3,
+    "end_atom_id": 7,
+    "start_atom_name": "C4'",
+    "end_atom_name": "C2'",
+    "vector": [
+      -0.3699999999999992,
+      2.0090000000000003,
+      -0.9289999999999999
+    ],
+    "magnitude": 2.2441082861573327,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 3,
+    "end_atom_id": 8,
+    "start_atom_name": "C4'",
+    "end_atom_name": "C1'",
+    "vector": [
+      -0.5860000000000003,
+      0.963000000000001,
+      -2.014
+    ],
+    "magnitude": 2.3080210137691557,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 3,
+    "end_atom_id": 31,
+    "start_atom_name": "C4'",
+    "end_atom_name": "P",
+    "vector": [
+      2.5999999999999996,
+      2.899000000000001,
+      -0.704
+    ],
+    "magnitude": 3.9572486654239967,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 4,
+    "end_atom_id": 5,
+    "start_atom_name": "O4'",
+    "end_atom_name": "C3'",
+    "vector": [
+      0.9449999999999985,
+      1.6779999999999973,
+      1.4020000000000001
+    ],
+    "magnitude": 2.382081652672718,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 4,
+    "end_atom_id": 6,
+    "start_atom_name": "O4'",
+    "end_atom_name": "O3'",
+    "vector": [
+      2.349,
+      1.7679999999999971,
+      1.096
+    ],
+    "magnitude": 3.1376489606072875,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 4,
+    "end_atom_id": 7,
+    "start_atom_name": "O4'",
+    "end_atom_name": "C2'",
+    "vector": [
+      0.022999999999999687,
+      2.288999999999998,
+      0.42
+    ],
+    "magnitude": 2.327326792695858,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 4,
+    "end_atom_id": 8,
+    "start_atom_name": "O4'",
+    "end_atom_name": "C1'",
+    "vector": [
+      -0.1930000000000014,
+      1.2429999999999986,
+      -0.6649999999999999
+    ],
+    "magnitude": 1.422857336488798,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 4,
+    "end_atom_id": 31,
+    "start_atom_name": "O4'",
+    "end_atom_name": "P",
+    "vector": [
+      2.9929999999999986,
+      3.1789999999999985,
+      0.645
+    ],
+    "magnitude": 4.413628325992118,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 5,
+    "end_atom_id": 6,
+    "start_atom_name": "C3'",
+    "end_atom_name": "O3'",
+    "vector": [
+      1.4040000000000017,
+      0.08999999999999986,
+      -0.30600000000000005
+    ],
+    "magnitude": 1.4397749824191295,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 5,
+    "end_atom_id": 7,
+    "start_atom_name": "C3'",
+    "end_atom_name": "C2'",
+    "vector": [
+      -0.9219999999999988,
+      0.6110000000000007,
+      -0.982
+    ],
+    "magnitude": 1.479097359878652,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 5,
+    "end_atom_id": 8,
+    "start_atom_name": "C3'",
+    "end_atom_name": "C1'",
+    "vector": [
+      -1.138,
+      -0.4349999999999987,
+      -2.067
+    ],
+    "magnitude": 2.399324488267479,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 5,
+    "end_atom_id": 31,
+    "start_atom_name": "C3'",
+    "end_atom_name": "P",
+    "vector": [
+      2.048,
+      1.5010000000000012,
+      -0.757
+    ],
+    "magnitude": 2.649595063401199,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 6,
+    "end_atom_id": 7,
+    "start_atom_name": "O3'",
+    "end_atom_name": "C2'",
+    "vector": [
+      -2.3260000000000005,
+      0.5210000000000008,
+      -0.6759999999999999
+    ],
+    "magnitude": 2.4776385934998677,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 6,
+    "end_atom_id": 8,
+    "start_atom_name": "O3'",
+    "end_atom_name": "C1'",
+    "vector": [
+      -2.5420000000000016,
+      -0.5249999999999986,
+      -1.761
+    ],
+    "magnitude": 3.136639921954703,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 6,
+    "end_atom_id": 31,
+    "start_atom_name": "O3'",
+    "end_atom_name": "P",
+    "vector": [
+      0.6439999999999984,
+      1.4110000000000014,
+      -0.45099999999999996
+    ],
+    "magnitude": 1.6152578741488932,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 7,
+    "end_atom_id": 8,
+    "start_atom_name": "C2'",
+    "end_atom_name": "C1'",
+    "vector": [
+      -0.21600000000000108,
+      -1.0459999999999994,
+      -1.085
+    ],
+    "magnitude": 1.5224969622301383,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 7,
+    "end_atom_id": 31,
+    "start_atom_name": "C2'",
+    "end_atom_name": "P",
+    "vector": [
+      2.969999999999999,
+      0.8900000000000006,
+      0.22499999999999998
+    ],
+    "magnitude": 3.1086371612010293,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  },
+  {
+    "start_atom_id": 8,
+    "end_atom_id": 31,
+    "start_atom_name": "C1'",
+    "end_atom_name": "P",
+    "vector": [
+      3.186,
+      1.936,
+      1.3099999999999998
+    ],
+    "magnitude": 3.9515556430347782,
+    "is_backbone_vector": true,
+    "is_mixed_vector": false
+  }
+]
