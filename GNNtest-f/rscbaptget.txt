@@ -1,0 +1,77 @@
+import os
+import requests
+
+def fetch_pdb_ids(aptamer_type="DNA"):
+    """查询 RCSB PDB 数据库，获取特定类型的 aptamer PDB ID 列表"""
+    url = "https://search.rcsb.org/rcsbsearch/v2/query"  # RCSB PDB 查询 API
+    query = {
+        "query": {
+            "type": "group",
+            "logical_operator": "and",
+            "nodes": [
+                {  # 搜索标题中包含 "aptamer" 的条目
+                    "type": "terminal",
+                    "service": "text",
+                    "parameters": {
+                        "attribute": "struct.title",
+                        "operator": "contains_words",
+                        "value": "aptamer"
+                    }
+                },
+                {  # 筛选 DNA 或 RNA 适配体
+                    "type": "terminal",
+                    "service": "text",
+                    "parameters": {
+                        "attribute": "polymer_entity_poly.pdbx_strand_id",
+                        "operator": "contains_words",
+                        "value": aptamer_type
+                    }
+                }
+            ]
+        },
+        "return_type": "entry",
+        "request_options": {"return_all_hits": True}
+    }
+    
+    response = requests.post(url, json=query)
+    if response.status_code == 200:
+        data = response.json()
+        pdb_ids = [entry["identifier"] for entry in data.get("result_set", [])]
+        return pdb_ids
+    else:
+        print("[ERROR] Failed to fetch PDB IDs.")
+        return []
+
+def download_pdb(pdb_id, save_dir):
+    """下载指定 PDB ID 的结构文件并保存"""
+    pdb_url = f"https://files.rcsb.org/download/{pdb_id}.pdb"
+    response = requests.get(pdb_url)
+    
+    if response.status_code == 200:
+        save_path = os.path.join(save_dir, f"{pdb_id}.pdb")
+        with open(save_path, "w") as file:
+            file.write(response.text)
+        print(f"[INFO] Downloaded {pdb_id}.pdb")
+    else:
+        print(f"[WARNING] Failed to download {pdb_id}.pdb")
+
+def main():
+    save_dir = r"E:\\APTAMER-GEN\\pdbdata"
+    os.makedirs(save_dir, exist_ok=True)
+    
+    # 下载 DNA 适配体
+    print("Fetching DNA aptamer PDB IDs...")
+    dna_pdb_ids = fetch_pdb_ids("DNA")
+    print(f"Found {len(dna_pdb_ids)} DNA aptamers.")
+    for pdb_id in dna_pdb_ids:
+        download_pdb(pdb_id, save_dir)
+    
+    # 下载 RNA 适配体
+    print("Fetching RNA aptamer PDB IDs...")
+    rna_pdb_ids = fetch_pdb_ids("RNA")
+    print(f"Found {len(rna_pdb_ids)} RNA aptamers.")
+    for pdb_id in rna_pdb_ids:
+        download_pdb(pdb_id, save_dir)
+
+if __name__ == "__main__":
+    main()
