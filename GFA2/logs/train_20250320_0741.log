@@ -1,0 +1,6 @@
+2025-03-20 07:41:47,851 - ERROR - Error occurred: 'list' object has no attribute 'to'
+Traceback (most recent call last):
+  File "e:\Python\DL\GFA2\src\main.py", line 68, in main
+    batch = batch.to(device)
+            ^^^^^^^^
+AttributeError: 'list' object has no attribute 'to'

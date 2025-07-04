@@ -1,0 +1,51 @@
+2025-03-20 08:18:28,121 - ERROR - Error occurred: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 16.00 GiB of which 0 bytes is free. Of the allocated memory 26.15 GiB is allocated by PyTorch, and 983.08 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "e:\Python\DL\GFA2\src\main.py", line 101, in main
+    outputs = model(batch)
+              ^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\Python\DL\GFA2\src\models\transformer.py", line 31, in forward
+    memory = self.encoder(src_emb)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\transformer.py", line 517, in forward
+    output = mod(
+             ^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\transformer.py", line 920, in forward
+    + self._sa_block(x, src_mask, src_key_padding_mask, is_causal=is_causal)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\transformer.py", line 934, in _sa_block
+    x = self.self_attn(
+        ^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\modules\activation.py", line 1373, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\functional.py", line 6230, in multi_head_attention_forward
+    q, k, v = _in_projection_packed(query, key, value, in_proj_weight, in_proj_bias)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\DL\Lib\site-packages\torch\nn\functional.py", line 5621, in _in_projection_packed
+    .contiguous()
+     ^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 16.00 GiB of which 0 bytes is free. Of the allocated memory 26.15 GiB is allocated by PyTorch, and 983.08 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
