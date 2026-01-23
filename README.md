@@ -1,4 +1,4 @@
-# work1:Minimal SMILES Transformer(retro-transformer)      
+# WORK 1:Minimal SMILES Transformer(File:retro-transformer)      
 
 This folder contains a minimal, trainable seq2seq Transformer for single-step
 forward (reactants -> products) and retro (products -> reactants) prediction.
