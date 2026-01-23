@@ -1,4 +1,4 @@
-# Minimal SMILES Transformer
+# work1:Minimal SMILES Transformer(retro-transformer)      
 
 This folder contains a minimal, trainable seq2seq Transformer for single-step
 forward (reactants -> products) and retro (products -> reactants) prediction.
@@ -113,6 +113,10 @@ python MoleReact/retro_transformer/gui.py
 ```
 
 Notes:
+
+
+# work 2: multistep retrosynthesis agent
+
 
 - If `tokenizer=selfies`, the GUI converts input SMILES to canonical SMILES,
   then to SELFIES with roundtrip check before prediction.
