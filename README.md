@@ -115,6 +115,13 @@ python MoleReact/retro_transformer/gui.py
 Notes:
 
 
+
+<img width="1120" height="640" alt="top_hits" src="https://github.com/user-attachments/assets/cf4d45bd-fd4b-4343-97bd-dc3e599ffd57" />
+<img width="1120" height="640" alt="ppl" src="https://github.com/user-attachments/assets/e43ebbda-d0da-4479-bce7-cb2a2a11e922" />
+<img width="1120" height="640" alt="loss" src="https://github.com/user-attachments/assets/6e169718-62e9-4b1f-a3fe-ea1be4d6fc35" />
+
+
+
 # work 2: multistep retrosynthesis agent
 
 
