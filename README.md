@@ -3,6 +3,10 @@
 This folder contains a minimal, trainable seq2seq Transformer for single-step
 forward (reactants -> products) and retro (products -> reactants) prediction.
 
+Due to the device 4060,  the most important part is the data cleaning and select
+this is also the exercise in this application of LLM in chem and bio, and this small
+TF got a good performance in new dataset( personally, in this 9M size maybe good)
+
 ## Requirements
 
 - Python 3.9+
