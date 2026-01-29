@@ -7,6 +7,13 @@ Due to the device 4060,  the most important part is the data cleaning and select
 this is also the exercise in this application of LLM in chem and bio, and this small
 TF got a good performance in new dataset( personally, in this 9M size maybe good)
 
+But the device can not hold more train and bigger framework, cause the whole training cost 12h
+or even more and the small model became overfit.
+
+thus this is a trial, but is connected with another multiretro-agent, which return an excellent result 
+when using the CLI mode to doing those multistep prediction synthesis work, and those result were passed through
+the chemical synthesis worker's judgemnt.
+
 ## Requirements
 
 - Python 3.9+
