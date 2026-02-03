@@ -145,4 +145,5 @@ Notes:
 
 # work 3: a simple guess game that hold by the llm to see the gaming strategy that they will choose
 file: guess
+<img width="2778" height="2378" alt="combined_chart" src="https://github.com/user-attachments/assets/b971b9d8-52c0-4df3-bee7-4cd05b26a5fc" />
 
