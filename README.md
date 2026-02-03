@@ -133,10 +133,16 @@ Notes:
 
 
 
-# work 2: multistep retrosynthesis agent
+# work 2: multistep retrosynthesis agent         
 
 
 - If `tokenizer=selfies`, the GUI converts input SMILES to canonical SMILES,
   then to SELFIES with roundtrip check before prediction.
 - The preview grid includes the input molecule (legend `input`) when RDKit and
   Pillow are available.
+
+
+
+# work 3: a simple guess game that hold by the llm to see the gaming strategy that they will choose
+file: guess
+
