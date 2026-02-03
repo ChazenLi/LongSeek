@@ -1,0 +1,37 @@
+
+============================================================
+Synthetic CA Modeling Example
+============================================================
+
+Step 1: Creating synthetic data...
+  Initial mask shape: (256, 256)
+  Cell coverage: 0.709
+  Wound area: 19065
+
+Step 2: Downsampling mask...
+  Original shape: (256, 256)
+  Downsampled shape: (128, 128)
+  Downsampling factor: 2x2
+
+Step 3: Creating synthetic observed data...
+  Time points: 40
+  Initial wound area: 50231
+  Final wound area: 14311
+
+Step 4: Fitting CA parameters (10 samples)...
+Running random search with 10 samples...
+Traceback (most recent call last):
+  File "E:\Python\funny\CA_project\run_synthetic_example.py", line 197, in <module>
+    results = run_synthetic_example(
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\funny\CA_project\run_synthetic_example.py", line 119, in run_synthetic_example
+    result = fit_simple_grid_search(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\funny\CA_project\inference\fit_bo.py", line 364, in fit_simple_grid_search
+    history = run_simulation(params, initial_mask, num_steps=50,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\funny\CA_project\inference\fit_bo.py", line 178, in run_simulation
+    ca.initialize_from_mask(initial_mask, k=downsample_k)
+  File "E:\Python\funny\CA_project\ca\model.py", line 44, in initialize_from_mask
+    from CA_project.preprocess.extract_observations import downsample_binary
+ModuleNotFoundError: No module named 'CA_project'

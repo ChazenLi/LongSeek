@@ -1,0 +1,106 @@
+======================================================================
+真实数据集CA模型分析
+======================================================================
+
+======================================================================
+分析数据集: SN15
+======================================================================
+
+Step 1: 检查数据可用性...
+  ✓ 数据集路径存在
+  ✓ 找到 54 个mask文件
+  ✓ 找到measures.mat (质量指标)
+
+Step 2: 加载mask文件（前5个）...
+  [1] 20_00_manual.mat: shape=(1024, 1031), cell_coverage=0.666
+  [2] 23_00_manual.mat: shape=(1024, 1031), cell_coverage=0.554
+  [3] DIC_SN_15_L10_Sum00_manual.mat: shape=(1024, 1024), cell_coverage=0.628
+  [4] DIC_SN_15_L10_Sum32_manual.mat: shape=(1024, 1024), cell_coverage=0.883
+  [5] DIC_SN_15_L12_Sum00_manual.mat: shape=(1024, 1024), cell_coverage=0.529
+
+Step 3: 提取观测量...
+  ✗ 20_00_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ 23_00_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ DIC_SN_15_L10_Sum00_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ DIC_SN_15_L10_Sum32_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ DIC_SN_15_L12_Sum00_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ 观测量少于2个，无法进行时间序列分析
+
+======================================================================
+分析数据集: MDCK
+======================================================================
+
+Step 1: 检查数据可用性...
+  ✓ 数据集路径存在
+  ✓ 找到 14 个mask文件
+  ✓ 找到measures.mat (质量指标)
+
+Step 2: 加载mask文件（前5个）...
+  [1] DKWH7_L16_007_manual.mat: shape=(1024, 1024), cell_coverage=0.805
+  [2] DKWH7_L18_011_manual.mat: shape=(1024, 1024), cell_coverage=0.695
+  [3] DKWH7_L18_015_manual.mat: shape=(1024, 1024), cell_coverage=0.720
+  [4] DKWH7_L18_028_manual.mat: shape=(1024, 1024), cell_coverage=0.833
+  [5] DKWH7_L1_000_manual.mat: shape=(1024, 1024), cell_coverage=0.791
+
+Step 3: 提取观测量...
+  ✗ DKWH7_L16_007_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ DKWH7_L18_011_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ DKWH7_L18_015_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ DKWH7_L18_028_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ DKWH7_L1_000_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ 观测量少于2个，无法进行时间序列分析
+
+======================================================================
+分析数据集: Melanoma
+======================================================================
+
+Step 1: 检查数据可用性...
+  ✓ 数据集路径存在
+  ✓ 找到 20 个mask文件
+  ✓ 找到measures.mat (质量指标)
+
+Step 2: 加载mask文件（前5个）...
+  [1] EXP1_1_0HRS_001_manual.mat: shape=(1024, 1280), cell_coverage=0.415
+  [2] EXP1_1_24HRS_001_manual.mat: shape=(1024, 1280), cell_coverage=0.764
+  [3] EXP1_2_27HRS_001_manual.mat: shape=(1024, 1280), cell_coverage=0.918
+  [4] EXP1_2_4HRS_001_manual.mat: shape=(1024, 1280), cell_coverage=0.517
+  [5] EXP2_1_28HRS_002_manual.mat: shape=(1024, 1280), cell_coverage=0.833
+
+Step 3: 提取观测量...
+  ✗ EXP1_1_0HRS_001_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ EXP1_1_24HRS_001_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ EXP1_2_27HRS_001_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ EXP1_2_4HRS_001_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ EXP2_1_28HRS_002_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ 观测量少于2个，无法进行时间序列分析
+
+======================================================================
+分析数据集: TScratch
+======================================================================
+
+Step 1: 检查数据可用性...
+  ✓ 数据集路径存在
+  ✓ 找到 24 个mask文件
+  ✓ 找到measures.mat (质量指标)
+
+Step 2: 加载mask文件（前5个）...
+  [1] PC2al0_manual.mat: shape=(1028, 1384), cell_coverage=0.544
+  [2] PC2ar0_manual.mat: shape=(1028, 1384), cell_coverage=0.561
+  [3] PC2ar24_manual.mat: shape=(1028, 1384), cell_coverage=0.933
+  [4] PC2bl0_manual.mat: shape=(1028, 1384), cell_coverage=0.448
+  [5] PC2bl24_manual.mat: shape=(1028, 1384), cell_coverage=0.885
+
+Step 3: 提取观测量...
+  ✗ PC2al0_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ PC2ar0_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ PC2ar24_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ PC2bl0_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ PC2bl24_manual.mat: 提取失败 - extract_frame_statistics() got an unexpected keyword argument 'measures_path'
+  ✗ 观测量少于2个，无法进行时间序列分析
+
+======================================================================
+总结
+======================================================================
+成功分析的数据集: 0/4
+
+======================================================================
