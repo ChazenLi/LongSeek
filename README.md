@@ -150,16 +150,16 @@ file: guess
 # work 4:    
 file : STRUC2VEC; The-basic-exploration;           
 this a kind of work that try to visual and find the ball or min space that contains the children structure;             
-may be a help for the further vector system design and frame structure design.          
-another reason is that it is a kind of trouble to get the validation of pymol...
+may be a help for the further vector system design and frame structure design.           
+another reason is that it is a kind of trouble to get the validation of pymol...             
 results:  <img width="945" height="802" alt="93d90575-20f3-4ec7-8508-7862912d78ed" src="https://github.com/user-attachments/assets/a054fc74-0c27-43a7-9304-ca8e8b776b4a" />
 
 <img width="985" height="923" alt="a2085e66-4a29-46ad-ba5e-4bf9212313f1" src="https://github.com/user-attachments/assets/d0b66e33-282c-4a01-ba13-473a464ed8fb" />
 
 # work 5:   
-file: the-cellular-automata; trial;
-something interesting that use the CA as the approach
-trial: it is a kind of work that using the CA as the basic model to simulate the revoery process of the skin. just funny and for fun. maybe better to make a video to see the detailed process.  And this is a very small params trial to know the whole workflow in this kind of program.
+file: the-cellular-automata; trial;                    
+something interesting that use the CA as the approach                           
+trial: it is a kind of work that using the CA as the basic model to simulate the revoery process of the skin. just funny and for fun. maybe better to make a video to see the detailed process.  And this is a very small params trial to know the whole workflow in this kind of program.                            
 results：<img width="2083" height="1484" alt="optimized_simulation_L12" src="https://github.com/user-attachments/assets/0f246dae-6f31-4ea1-aeeb-ff112a82446a" />
 <img width="2685" height="1771" alt="parameter_sensitivity_en" src="https://github.com/user-attachments/assets/ceb034a4-0678-45ac-8c4c-a9dee30f19f3" />
 <img width="1786" height="734" alt="quick_gamma_test" src="https://github.com/user-attachments/assets/7c0fa8ec-2c47-464a-bf21-894e98968c0c" />
