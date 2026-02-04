@@ -170,13 +170,13 @@ results：<img width="2083" height="1484" alt="optimized_simulation_L12" src="ht
 
 
 # work 6:       
-## file: 
-the further test that using the CA to stimulate the whole cell from the diff level: moleular interaction, cell comunication, whole cellgroup performance
-but this is still a fast and quick test 
-using the erk and mlc dataset which is one of protein that exsit on the cell membrane and was proved that there a kind of phenomenon called ERK-wave. obviously this is a simple and multi dimension data to do the further research by combining those infomations.
-but this test also show the limitation of CA, cause i use the same framework that in the work 5 to do the job which shows the worse result...
-well, NNs do have the talent to do seriously fit and its generations are prettyu good, especially conpared with those old, simple CA.
-next test mayb be focus on the NCA or increas the amount of CA( be careful! do not trapped into the scale leveling under limited resources)
+## file: 77-Aoki-CellDynERK           
+the further test that using the CA to stimulate the whole cell from the diff level: moleular interaction, cell comunication, whole cellgroup performance                         
+but this is still a fast and quick test                           
+using the erk and mlc dataset which is one of protein that exsit on the cell membrane and was proved that there a kind of phenomenon called ERK-wave. obviously this is a simple and multi dimension data to do the further research by combining those infomations.             
+but this test also show the limitation of CA, cause i use the same framework that in the work 5 to do the job which shows the worse result...              
+well, NNs do have the talent to do seriously fit and its generations are prettyu good, especially conpared with those old, simple CA.                    
+next test mayb be focus on the NCA or increas the amount of CA( be careful! do not trapped into the scale leveling under limited resources)                     
 <img width="5370" height="1732" alt="erk_field_evolution" src="https://github.com/user-attachments/assets/5d22f929-a701-4660-930d-8d779b056c40" />
 <img width="4770" height="1965" alt="ca_evolution" src="https://github.com/user-attachments/assets/5d3eb083-1613-4470-910c-73b117b67ed5" />
 <img width="3604" height="2848" alt="real_parameter_search" src="https://github.com/user-attachments/assets/63a1595a-d13c-4c82-b742-0eb515915536" />
