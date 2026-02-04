@@ -144,11 +144,11 @@ Notes:
 
 
 # work 3: a simple guess game that hold by the llm to see the gaming strategy that they will choose
-file: guess
+## file: guess
 <img width="2778" height="2378" alt="combined_chart" src="https://github.com/user-attachments/assets/b971b9d8-52c0-4df3-bee7-4cd05b26a5fc" />
 
 # work 4:    
-file : STRUC2VEC; The-basic-exploration;           
+## file : STRUC2VEC; The-basic-exploration;           
 this a kind of work that try to visual and find the ball or min space that contains the children structure;             
 may be a help for the further vector system design and frame structure design.           
 another reason is that it is a kind of trouble to get the validation of pymol...             
@@ -157,7 +157,7 @@ results:  <img width="945" height="802" alt="93d90575-20f3-4ec7-8508-7862912d78e
 <img width="985" height="923" alt="a2085e66-4a29-46ad-ba5e-4bf9212313f1" src="https://github.com/user-attachments/assets/d0b66e33-282c-4a01-ba13-473a464ed8fb" />
 
 # work 5:   
-file: the-cellular-automata; trial;                    
+## file: the-cellular-automata; trial;                    
 something interesting that use the CA as the approach                           
 trial: it is a kind of work that using the CA as the basic model to simulate the revoery process of the skin. just funny and for fun. maybe better to make a video to see the detailed process.  And this is a very small params trial to know the whole workflow in this kind of program.                            
 results：<img width="2083" height="1484" alt="optimized_simulation_L12" src="https://github.com/user-attachments/assets/0f246dae-6f31-4ea1-aeeb-ff112a82446a" />
@@ -167,4 +167,21 @@ results：<img width="2083" height="1484" alt="optimized_simulation_L12" src="ht
 <img width="2556" height="2171" alt="comprehensive_visualization_en" src="https://github.com/user-attachments/assets/d303ae56-d08b-449d-a0b6-b2e112f03c52" />
 <img width="2234" height="712" alt="mask_visualization_SN15_0" src="https://github.com/user-attachments/assets/6dd0b058-c8c8-4b0c-8e5a-61144dd83fd2" />
 <img width="2234" height="714" alt="mask_visualization_SN15_4" src="https://github.com/user-attachments/assets/6abf8fc6-85a1-473d-af32-71f9fa3494ac" />
+
+
+# work 6:       
+## file: 
+the further test that using the CA to stimulate the whole cell from the diff level: moleular interaction, cell comunication, whole cellgroup performance
+but this is still a fast and quick test 
+using the erk and mlc dataset which is one of protein that exsit on the cell membrane and was proved that there a kind of phenomenon called ERK-wave. obviously this is a simple and multi dimension data to do the further research by combining those infomations.
+but this test also show the limitation of CA, cause i use the same framework that in the work 5 to do the job which shows the worse result...
+well, NNs do have the talent to do seriously fit and its generations are prettyu good, especially conpared with those old, simple CA.
+next test mayb be focus on the NCA or increas the amount of CA( be careful! do not trapped into the scale leveling under limited resources)
+<img width="5370" height="1732" alt="erk_field_evolution" src="https://github.com/user-attachments/assets/5d22f929-a701-4660-930d-8d779b056c40" />
+<img width="4770" height="1965" alt="ca_evolution" src="https://github.com/user-attachments/assets/5d3eb083-1613-4470-910c-73b117b67ed5" />
+<img width="3604" height="2848" alt="real_parameter_search" src="https://github.com/user-attachments/assets/63a1595a-d13c-4c82-b742-0eb515915536" />
+<img width="3588" height="2531" alt="test_multi_condition" src="https://github.com/user-attachments/assets/d63e1275-985c-4d97-8af6-e1bff0fc3ea3" />
+<img width="3962" height="2751" alt="comprehensive_overview" src="https://github.com/user-attachments/assets/d9f4592b-9bbb-47d2-bbca-a68b1b1bfb28" />
+
+
 
